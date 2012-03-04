@@ -1,0 +1,115 @@
+*{  margin : 0 ; padding : 0 ; }
+
+
+#wrapper{ position : relative ;  width : 700px ; margin : 20px auto ; overflow : auto ;}
+
+/************** ENTETE **************************/
+
+header h1{ line-height : 70px ; position : relative ;  text-align : left ; }
+
+header h1 a {margin-left : 10px ; padding : 20px}
+
+#signature{position : absolute ; right : 15px ; top : 10px ; }
+
+
+/*********** MENU **************************/
+
+
+/**************************************/
+
+nav{width : 150px ; margin-top : 20px; margin-left : 20px ; float:left}
+
+#second_menu{position : absolute ; width : 170px ; top : 350px; left : 20px ;}
+
+
+nav a{display : block ; padding : 0 10px ; margin : 0 10px 10px 10px; }
+
+nav h2{
+  padding : 5px 0 5px 0 ;
+  text-align : center ;
+  margin : 0 0 10px 0 ;
+}  
+
+/****** article ***********************/
+
+
+article{  width : 460px ;float : left ;
+  margin : 20px 10px 20px 30px; min-height : 250px ;
+  padding : 0 0px 0px 0px ; 
+ }
+ 
+article.etroit{width : 250px ;} 
+
+
+
+article h2{ line-height : 40px ;text-indent : 10px ;  font-size : 20px ; }
+
+article table, aside ul{padding : 10px;}
+
+article td{padding : 4px  10px;}
+
+.libelle {padding-right : 20px ;}
+
+.suppr { margin-left : 20px ; font-size : 80% ;} 
+
+article p{margin : 5px 10px ; }
+
+article p+h3{ margin-top : 20px ;}
+
+article ul, aside ul{ list-style-position: outside; margin-left : 10px ;}
+
+article ul.galerie{text-align : center ; margin : 10px ;}
+
+article ul.galerie li{list-style-type: none; display : inline-block ;}
+
+article h3{ 
+    margin : 0px 15px 0px 15px;   clear : both ;
+  }
+
+article h4{ 
+    margin : 5px 15px 5px 15px;
+  }
+  
+
+
+ /*** Liste d'activités ****/
+ #titreListeActivites{float : left ; font-size : 70% ;  line-height : 20px ; margin : 0 0 0 10px ; padding : 0 ;}
+ ul#listeActivites {margin : 0px 5px 0px 5px ; font-size : 70% ; float : left; width : 390px ;}
+ ul#listeActivites li{display : inline-block ;  line-height : 20px ;}
+ ul#listeActivites a{text-decoration : none ; display : block; margin : 0px 4px ; padding : 0 0px ; }
+ ul#listeActivites a:hover{text-decoration : underline ;}
+
+  /**** listes de participants ************/
+ .listeParticipants {margin : 0 20px 10px 20px ; min-height : 50px ;}
+ .listeParticipants li{margin-left : 20px ;}
+/********** aside **************************************/
+
+article+aside{display : inline-block; float : right ; width : 220px ; text-align : justify ; margin : 20px 10px 0 0 ;}
+article+aside h2{color : rgb(72,72,72) ; background-color : rgb(51,204,51);}
+aside p{margin : 10px ;}
+aside{ position: absolute ; right : 0 ;}
+
+aside#detailAdherent{min-height : 100px ;}
+aside img#photoAdherent{width : 50px; position : absolute ; top : 0px ; right : 0px ;}
+/******** Formulaire ************************/
+form{
+  margin : 10px ;
+}
+form fieldset{
+  display : inline ;
+  padding : 10px ; 
+}
+
+form legend{padding : 0 4px ; }
+
+form label, form input[type="text"], form input[type="submit"], form div.champ p, form select{display : inline-block ;}
+  
+form label{ padding : 5px 10px ; width : 60px ; text-align : right ;}
+form input[type=text], form select{width : 160px;}
+/*form div.champ p{max-width : 150px; font-size : 80% ;}*/
+
+form input[type=submit]{padding : 2px 15px ;margin-top : 10px ;margin-left : 130px ;}
+
+/************* Pied de page *************************************************/
+aside+footer{clear : both ;}
+footer p{ padding : 5px ; }

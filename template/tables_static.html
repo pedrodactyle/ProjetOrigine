@@ -1,0 +1,484 @@
+
+<!doctype html public "✰">
+<!--[if lt IE 7]> <html lang="en-us" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js ie8"> <![endif]-->
+<!--[if IE 9]>    <html lang="en-us" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Adminica | The Professional Admin Theme</title>
+  		<meta name="description" content="http://themeforest.net/item/adminica-the-professional-admin-template/160638">
+  		<meta name="author" content="Oisin Lavery - Tricycle Labs">
+  		
+	<!-- iPhone, iPad and Android specific settings -->	
+	
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1;">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="apple-touch-icon" href="images/iOS_icon.png">
+		<link rel="apple-touch-startup-image" href="images/iOS_startup.png">
+				
+	<!-- Styles -->
+
+		<link rel="stylesheet" type="text/css" href="styles/reset.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+		
+		<link rel="stylesheet" type="text/css" href="scripts/fancybox/jquery.fancybox-1.3.4.css">
+		<link rel="stylesheet" type="text/css" href="scripts/tinyeditor/style.css">
+		<link rel="stylesheet" type="text/css" href="scripts/slidernav/slidernav.css">
+		<link rel="stylesheet" type="text/css" href="scripts/syntax_highlighter/styles/shCore.css">
+		<link rel="stylesheet" type="text/css" href="scripts/syntax_highlighter/styles/shThemeDefault.css">
+		<link rel="stylesheet" type="text/css" href="scripts/uitotop/css/ui.totop.css">
+		<link rel="stylesheet" type="text/css" href="scripts/fullcalendar/fullcalendar.css">
+		<link rel="stylesheet" type="text/css" href="scripts/isotope/isotope.css">
+		<link rel="stylesheet" type="text/css" href="scripts/elfinder/css/elfinder.css">
+		
+		<link rel="stylesheet" type="text/css" href="scripts/tiptip/tipTip.css">
+		<link rel="stylesheet" type="text/css" href="scripts/uniform/css/uniform.aristo.css">
+		<link rel="stylesheet" type="text/css" href="scripts/multiselect/css/ui.multiselect.css">
+		<link rel="stylesheet" type="text/css" href="scripts/selectbox/jquery.selectBox.css">
+		<link rel="stylesheet" type="text/css" href="scripts/colorpicker/css/colorpicker.css">
+		<link rel="stylesheet" type="text/css" href="scripts/uistars/jquery.ui.stars.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="scripts/themeroller/Aristo.css">
+		
+		<link rel="stylesheet" type="text/css" href="styles/text.css">
+		<link rel="stylesheet" type="text/css" href="styles/grid.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/theme/theme_base.css">
+
+		<!-- Style Switcher  
+		
+		The following stylesheet links are used by the styleswitcher to allow for dynamically changing how Adminica looks and acts.
+		Styleswitcher documentation: http://style-switcher.webfactoryltd.com/documentation/
+		
+		switcher1.php : layout - fluid by default.								(eg. styles/theme/switcher1.php?default=layout_fixed.css)
+		switcher2.php : header and sidebar positioning - sidebar by default.	(eg. styles/theme/switcher1.php?default=header_top.css)
+		switcher3.php : colour skin - black/grey by default.					(eg. styles/theme/switcher1.php?default=theme_red.css)
+		switcher4.php : background image - dark boxes by default.				(eg. styles/theme/switcher1.php?default=bg_honeycomb.css)
+		switcher5.php : controls the theme - dark by default.					(eg. styles/theme/switcher1.php?default=theme_light.css)
+		
+		-->
+		
+		<link rel="stylesheet" type="text/css" href="styles/theme/switcher.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="styles/theme/switcher1.php?default=layout_fixed.css" media="screen" > 
+		<link rel="stylesheet" type="text/css" href="styles/theme/switcher2.php?default=switcher.css" media="screen" >
+		<link rel="stylesheet" type="text/css" href="styles/theme/switcher3.php?default=theme_blue.css" media="screen" >
+		<link rel="stylesheet" type="text/css" href="styles/theme/switcher4.php?default=bg_wood.css" media="screen" >
+		<link rel="stylesheet" type="text/css" href="styles/theme/switcher5.php?default=switcher.css" media="screen" >
+		
+		<link rel="stylesheet" type="text/css" href="styles/colours.css">
+		<link rel="stylesheet" type="text/css" href="styles/ie.css">
+		
+	<!-- Scripts -->
+
+		<!-- Load JQuery -->		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+		<!-- Load JQuery UI -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js" type="text/javascript"></script>
+		
+		<!-- Global -->
+		<script src="scripts/touchPunch/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+		<script src="scripts/uitotop/js/jquery.ui.totop.js" type="text/javascript"></script>
+				
+		<!-- Forms -->
+		<script src="scripts/uniform/jquery.uniform.min.js"></script>
+		<script src="scripts/autogrow/jquery.autogrowtextarea.js"></script>
+		<script src="scripts/multiselect/js/ui.multiselect.js"></script>
+		<script src="scripts/selectbox/jquery.selectBox.min.js"></script>
+		<script src="scripts/timepicker/jquery.timepicker.js"></script>
+		<script src="scripts/colorpicker/js/colorpicker.js"></script>
+		<script src="scripts/uistars/jquery.ui.stars.min.js"></script>
+		<script src="scripts/tiptip/jquery.tipTip.minified.js"></script>
+		<script src="scripts/validation/jquery.validate.min.js" type="text/javascript"></script>		
+
+		<!-- Configuration Script -->
+		<script type="text/javascript" src="scripts/adminica/adminica_ui.js"></script>
+		<script type="text/javascript" src="scripts/adminica/adminica_forms.js"></script>
+		<script type="text/javascript" src="scripts/adminica/adminica_mobile.js"></script>
+		
+		<!-- Live Load (remove after development) -->
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+	</head>
+	<body>
+		<div id="wrapper">		
+			<div id="topbar" class="clearfix">
+	
+	<a href="dashboard_sorter.php" class="logo"><span>Adminica</span></a>
+	
+	<div class="user_box dark_box clearfix">
+		<img src="images/profile.jpg" width="55" alt="Profile Pic" />
+		<h2>Administrator</h2>
+		<h3><a class="text_shadow" href="#">John Smith</a></h3>
+		<ul>
+			<li><a href="#">profile</a><span class="divider">|</span></li>
+			<li><a href="#">settings</a><span class="divider">|</span></li>
+			<li><a href="login.html">logout</a></li>
+		</ul>
+	</div><!-- #user_box -->	
+</div><!-- #topbar -->			<div id="sidebar">
+	<div class="cog">+</div>
+	
+	<a href="index.php" class="logo"><span>Adminica</span></a>
+
+	<div class="user_box dark_box clearfix">
+		<img src="images/profile.jpg" width="55" alt="Profile Pic" />
+		<h2>Administrator</h2>
+		<h3><a href="#">John Smith</a></h3>
+		<ul>
+			<li><a href="#">settings</a><span class="divider">|</span></li>
+			<li><a href="login.html">logout</a></li>
+		</ul>
+	</div><!-- #user_box -->
+
+	<ul class="side_accordion"> <!-- add class 'open_multiple' to change to from accordion to toggles -->
+		<li><a href="#"><img src="images/icons/small/grey/home.png"/>Home</a>
+			<ul class="drawer">
+				<li><a href="#">Activity</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Tasks</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><img src="images/icons/small/grey/mail.png"/>Mailbox<span class="alert badge alert_red">5</span></a>
+			<ul class="drawer">
+				<li><a href="#">Inbox</a></li>
+				<li><a href="#">Sent Items</a></li>
+				<li><a href="#">Drafts<span class="alert badge alert_grey">2</span></a></li>
+				<li><a href="#">Trash<span class="alert badge alert_grey">3</span></a></li>
+			</ul>
+		</li>
+		<li><a href="#"><img src="images/icons/small/grey/documents.png"/>Documents<span class="alert badge alert_black">2</span></a>
+			<ul class="drawer">
+				<li><a href="#">Create New</a></li>
+				<li><a href="#">View All</a></li>
+				<li><a href="#">Upload/Download<span class="alert badge alert_grey">2</span></a></li>
+			</ul>
+		</li>
+		<li><a href="#"><img src="images/icons/small/grey/users.png"/>Members</a>
+			<ul class="drawer">
+				<li><a href="#">Add New</a></li>
+				<li><a href="#">Edit/Delete</a></li>
+				<li><a href="#">Search Profiles</a></li>
+			</ul>
+		</li>
+		<li><a href="http://www.tricycle.ie"><img src="images/icons/small/grey/graph.png"/>Statistics</a></li>
+		<li><a href="#"><img src="images/icons/small/grey/cog_2.png"/>Settings</a>
+			<ul class="drawer">
+				<li><a href="#">Account</a></li>
+				<li><a href="#">System</a></li>
+			</ul>
+		</li>
+	</ul>
+	<form>
+		<div id="search_side" class="dark_box"><input class="" type="text" value="Search Adminica..." onclick="value=''"></div>
+	</form>
+	<ul id="side_links" class="side_links" style="margin-bottom:0;">
+		<li><a href="http://goo.gl/UjRRe">Online Documentation</a>
+		<li><a href="support.tricyclelabs.com">Expert Forum</a></li>
+		<li><a href="#">Product Wiki</a></li>
+		<li><a href="#">Latest Company News</a></li>
+	</ul>
+</div><!-- #sidebar -->
+	
+			<div id="main_container" class="main_container container_16 clearfix">
+				<div id="nav_top" class="clearfix round_top">
+	<ul class="clearfix">
+		<li><a href="index.html"><img src="images/icons/small/grey/laptop.png"/></a></li>
+	
+		<li><a href="#"><img src="images/icons/small/grey/frames.png"/><span>Layout</span></a>
+			<ul>
+				<li><a href="layout.html"><span>16 Grid - 960.gs</span></a></li>
+				<li><a href="text.html"><span>Text & Typography</span></a></li>
+				<li><a class="hide_mobile" href="#"><span>Layout Width</span></a>
+					<ul class="drawer">						
+						<li><a href="styles/theme/switcher1.php?style=layout_fixed.css"><span>Fixed</span></a></li>
+						<li><a href="styles/theme/switcher1.php?style=switcher.css"><span>Fluid</span></a></li>
+					</ul>
+				</li>
+				<li><a class="hide_mobile" href="#"><span>Layout Position</span></a>
+					<ul class="drawer">
+						<li><a href="styles/theme/switcher2.php?style=switcher.css"><span>Side</span></a></li>
+						<li><a href="styles/theme/switcher2.php?style=header_top.css"><span>Top</span></a></li>
+						<li><a href="styles/theme/switcher2.php?style=header_slideout.css"><span>Slide</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#"><img src="images/icons/small/grey/coverflow.png"/><span>Boxes</span></a>
+			<ul>
+				<li><a href="tabs.html"><span>Tab Boxes</span></a></li>
+				<li><a href="accordions.html"><span>Accordions Boxes</span></a></li>
+				<li><a href="wizard.html"><span>Step by Step Wizard</span></a></li>
+				<li><a href="code.html"><span>Code View</span></a></li>
+			</ul>
+		</li>	
+		<li><a href="#"><img src="images/icons/small/grey/create_write.png"/><span>Forms</span></a>
+			<ul>
+				<li><a href="forms.html"><span>Input Fields</span></a></li>
+				<li><a href="buttons.html"><span>Buttons</span></a></li>				
+				<li><a href="#"><span>More components</span></a>
+					<ul class="drawer">
+						<li><a href="validation.html"><span>Validation</span></a></li>
+						<li><a href="editor.html"><span>WYSIWYG Editor</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>		
+		<li><a href="gallery.html"><img src="images/icons/small/grey/images.png"/><span>Gallery</span></a></li>			
+		<li><a href="#"><img src="images/icons/small/grey/blocks_images.png"/><span>Tables</span></a>
+			<ul class="">
+				<li><a href="tables.html"><span>DataTables</span></a></li>
+				<li><a href="tables_static.html"><span>Regular Tables</span><span class="alert badge alert_black">new</span></a></li>
+			</ul>			
+		</li>
+		<li><a href="#"><img src="images/icons/small/grey/file_cabinet.png"/><span>Org</span></a>
+			<ul class="">
+				<li><a href="files.html"><img src="images/icons/small/grey/folder.png"/><span>Files</span></a></li>
+				<li><a href="contacts.html"><img src="images/icons/small/grey/users.png"/><span>Contacts</span></a></li>
+			</ul>
+		</li>
+		<li><a href="calendar.html"><img src="images/icons/small/grey/month_calendar.png"/><span>Cal</span><span class="alert badge alert_blue">new</span></a></li>
+		<li><a href="charts.html"><img src="images/icons/small/grey/graph.png"/><span>Charts</span><span class="alert badge alert_green">new</span></a></li>
+		<li><a href="login.php" class="dialog_button" data-dialog="logout"><img src="images/icons/small/grey/locked_2.png"/></a></li>
+	</ul>
+	<div class="display_none">						
+	<div id="logout" class="dialog_content narrow" title="Logout">
+		<div class="block">
+			<div class="section">
+				<h1>Thank you</h1>
+				<div class="dashed_line"></div>	
+				<p>We will now log you out of Adminica in a 10 seconds...</p><p></p>
+			</div>
+			<div class="button_bar clearfix">
+				<button class="dark blue no_margin_bottom link_button" data-link="login.php">
+					<div class="ui-icon ui-icon-check"></div>
+					<span>Ok</span>
+				</button>
+				<button class="light send_right close_dialog">
+					<div class="ui-icon ui-icon-closethick"></div>
+					<span>Cancel</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</div> 		
+
+	
+	
+<script type="text/javascript">
+	
+	var currentPage = 6 - 1; // This is only used in php to tell the nav what the current page is
+	$('#nav_top > ul > li').eq(currentPage).addClass("current");
+	$('#nav_top > ul > li').addClass("icon_only").children("a").children("span").parent().parent().removeClass("icon_only");
+</script>
+
+	
+	<div id="mobile_nav">
+		<div class="main"></div>
+		<div class="side"></div>
+	</div>
+	
+</div><!-- #nav_top -->
+				<div class="flat_area grid_16">
+					<h2>Tables</h2>
+				</div>
+				<div class="box grid_16">
+					<h2 class="box_head">Regular Table with Form Inputs</h2>	
+					<a href="#" class="grabber">&nbsp;</a>
+					<a href="#" class="toggle">&nbsp;</a>
+					<div class="block">	
+						<table class="static"> 
+							<thead> 
+								<tr> 
+									<th>Column 1</th> 
+									<th>Column 2</th> 
+									<th>Column 3</th> 
+									<th>Column 4</th> 
+									<th>Column 5</th> 
+								</tr> 
+							</thead> 
+							<tbody> 
+								<tr> 
+									<td><input type="text"/></td> 
+									<td><input type="text"/></td> 
+									<td><input type="text"/></td> 
+									<td><input type="text"/></td> 
+									<td><button class="magenta full_width">Save</button></td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 4.0</td> 
+									<td>Win 95+</td> 
+									<td>4</td> 
+									<td></td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 5.0</td> 
+									<td>Win 95+</td> 
+									<td>5</td> 
+									<td></td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 5.5</td> 
+									<td>Win 95+</td> 
+									<td>5.5</td> 
+									<td></td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 6</td> 
+									<td>Win 98+</td> 
+									<td>6</td> 
+									<td></td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet Explorer 7</td> 
+									<td>Win XP SP2+</td> 
+									<td>7</td> 
+									<td></td> 
+								</tr> 
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<div class="box grid_16">
+					<div class="block">	
+						<table class="static"> 
+							<thead> 
+								<tr> 
+									<th>Rendering engine</th> 
+									<th>Browser</th> 
+									<th>Platform(s)</th> 
+									<th>Engine version</th> 
+									<th>CSS grade</th> 
+								</tr> 
+							</thead> 
+							<tbody> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 4.0</td> 
+									<td>Win 95+</td> 
+									<td>4</td> 
+									<td>X</td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 5.0</td> 
+									<td>Win 95+</td> 
+									<td>5</td> 
+									<td>C</td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 5.5</td> 
+									<td>Win 95+</td> 
+									<td>5.5</td> 
+									<td>A</td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet
+										 Explorer 6</td> 
+									<td>Win 98+</td> 
+									<td>6</td> 
+									<td>A</td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>Internet Explorer 7</td> 
+									<td>Win XP SP2+</td> 
+									<td>7</td> 
+									<td>A</td> 
+								</tr> 
+								<tr> 
+									<td>Trident</td> 
+									<td>AOL browser (AOL desktop)</td> 
+									<td>Win XP</td> 
+									<td>6</td> 
+									<td>A</td> 
+								</tr> 
+								<tr> 
+									<td>Gecko</td> 
+									<td>Firefox 1.0</td> 
+									<td>Win 98+ / OSX.2+</td> 
+									<td>1.7</td> 
+									<td>A</td> 
+								</tr> 
+							</tbody> 
+						</table>
+					</div>
+				</div>
+	
+			</div>
+		<div id="loading_overlay">
+			<div class="loading_message round_bottom">
+				<img src="images/loading.gif" alt="loading" />
+			</div>
+		</div>
+		
+		
+		<div id="template_options" class="clearfix">
+			<h3><img src="images/adminica.png" alt="Adminica"></h3>
+			<div class="layout_size round_all">
+				<label>Layout:</label>
+				<a href="styles/theme/switcher1.php?style=switcher.css">Fluid</a><span>|</span>
+				<a href="styles/theme/switcher1.php?style=layout_fixed.css">Fixed</a><span>
+			</div>
+			<div class="layout_position round_all">
+				<label class="display_none">Header: </label>
+				<a href="styles/theme/switcher2.php?style=switcher.css">Side</a><span>|</span>
+				<a href="styles/theme/switcher2.php?style=header_top.css">Top</a><span>|</span>
+				<a href="styles/theme/switcher2.php?style=header_slideout.css">Slide</a>
+			</div>
+			<div class="layout_position round_all">
+				<label>Theme: </label>
+				<a href="styles/theme/switcher.php?style=multiple&switcher5.php=switcher.css&switcher4.php=switcher.css">Dark</a><span>|</span>
+				<a href="styles/theme/switcher.php?style=multiple&switcher5.php=theme_light.css&switcher4.php=switcher.css">Light</a>
+			</div>
+			<div class="theme_colour round_all">
+				<label class="display_none">Colour:</label>
+				<a class="black" href="styles/theme/switcher3.php?style=switcher.css"><span>Black</span></a>
+				<a class="blue" href="styles/theme/switcher3.php?style=theme_blue.css"><span>Blue</span></a>
+				<a class="navy" href="styles/theme/switcher3.php?style=theme_navy.css"><span>Navy</span></a>
+				<a class="red" href="styles/theme/switcher3.php?style=theme_red.css"><span>Red</span></a>
+				<a class="green" href="styles/theme/switcher3.php?style=theme_green.css"><span>Green</span></a>
+				<a class="magenta" href="styles/theme/switcher3.php?style=theme_magenta.css"><span>Magenta</span></a>
+				<a class="orange" href="styles/theme/switcher3.php?style=theme_brown.css"><span>Brown</span></a>
+			</div>
+			<div class="theme_background round_all" id="bg_dark">
+				<label>BGs:</label>
+				<a href="styles/theme/switcher4.php?style=switcher.css">Boxes</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_punched.css">Punched</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_honeycomb.css">Honeycomb</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_wood.css">Wood</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_dark_wood.css">Timber</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_noise.css">Noise</a>
+			</div>
+			<div class="theme_background round_all" id="bg_light">
+				<label>BGs:</label>
+				<a href="styles/theme/switcher4.php?style=switcher.css">Silver</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_white_wood.css">Wood</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_squares.css">Squares</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_noise_zero.css">Noise</a><span>|</span>
+				<a href="styles/theme/switcher4.php?style=bg_stripes.css">Stripes</a>
+			</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

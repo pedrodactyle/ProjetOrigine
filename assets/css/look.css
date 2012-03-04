@@ -1,0 +1,189 @@
+*{  font-family : calibri, arial;
+    color : rgb(41,41,41) ;
+}
+
+body{    background-color  : rgb(234,234,234) ;}
+
+#wrapper{
+  background-color  : rgb(247,247,247);
+  -moz-border-radius: 20px 20px 20px 20px; 
+  -webkit-border-radius:20px 20px 20px 20px;  
+  border-radius: 20px 20px 20px 20px;    
+                 
+    -moz-box-shadow: 1px 1px 12px rgb(58,58,58);    
+    -webkit-box-shadow: 1px 1px 12px rgb(58,58,58);  
+    box-shadow: 1px 1px 12px rgb(58,58,58);    
+}
+
+/************** ENTETE **************************/
+
+
+
+header h1{
+  -moz-border-radius: 10px 10px 0 0; 
+  -webkit-border-radius: 10px 10px 0 0; 
+  border-radius: 10px 10px 0 0; 
+          
+  -webkit-border-top-left-radius: 20px; /* pour Chrome */ 
+  -webkit-border-top-right-radius: 20px; /* pour Chrome */ 
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #AAAAAA),color-stop(1, #777777));
+
+
+}
+
+ header h1{ 
+  font-size : 200% ;
+  color : rgb(56,56,56) ;  
+  text-shadow: 1px 1px 1px rgb(187,187,187);
+  background-color : #AAA ;
+}
+
+header h1 a{ 
+  color : rgb(56,56,56) ;  
+  text-decoration : none  ;
+  text-shadow: 1px 1px 1px rgb(187,187,187);
+}
+
+header h1 span.petit{font-style : italic ; font-size : 70% ;}
+header h2{font-style : italic ;}
+
+
+#signature{ font-style : italic ;}
+
+/*********** MENU **************************/
+
+nav{ 
+  background-color  :rgb(225,225,225) ; 
+  -moz-border-radius: 10px; 
+  -webkit-border-radius:10px; 
+  border-radius: 10px;  
+                 
+    -moz-box-shadow: 1px 1px 12px rgb(58,58,58);    
+    -webkit-box-shadow: 1px 1px 12px rgb(58,58,58);  
+    box-shadow: 1px 1px 12px rgb(58,58,58);   
+  }
+  
+nav h2{ 
+  border-bottom : 1px solid rgb(133,133,133) ;
+  color : rgb(87,87,87) ;
+  }
+
+
+nav a { 
+        font-size : 120% ;
+        text-decoration: none; 
+      } 
+      
+nav a:hover, nav a:focus { 
+        background: rgb(180,180,180); 
+        
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px;
+        border-radius:  5px;
+           
+        -moz-box-shadow: 2px -2px 4px rgb(155,155,155);   
+        -webkit-box-shadow: 2px -2px 4px rgb(155,155,155);  
+        box-shadow: 2px -2px 4px rgb(155,155,155);  
+   
+      } 
+      
+nav a.selection{
+  
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,  rgb(0,208,0) ),color-stop(1, rgb(0,240,0)));   
+      } 
+
+/************ CONTENU *********************/
+
+article, aside,  aside#detailAdherent img#photoAdherent{  -moz-border-radius: 10px; 
+  -webkit-border-radius:10px; 
+  border-radius: 10px;  
+                 
+    -moz-box-shadow: 1px 1px 12px rgb(58,58,58);    
+    -webkit-box-shadow: 1px 1px 12px rgb(58,58,58);  
+    box-shadow: 1px 1px 12px rgb(58,58,58); }
+
+article h2, aside h2{
+  -moz-border-radius: 10px 10px 0px 0px; 
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius:  10px 10px 0px 0px;
+  border-bottom : 1px solid rgb(133,133,133) ;
+  text-align :left ;
+   background: rgb(0,192,64) ;
+  text-shadow: 1px 1px 1px rgb(224,224,224);
+	font-size : 150% ;
+	color : #454545 ;	
+  }
+  
+ .libelle{   /* display: list-item;     list-style: disc; list-style-position : inside ;*/} 
+  
+article h2:first-letter, .libelle:first-letter, .niveau:first-letter{text-transform:uppercase ;}
+
+article h4{ color : rgb(60,60,60)  }
+  
+article table{display : inline-block ;}
+article table a{text-decoration:none ;}
+article table tr:hover{background-color : rgb(182,182,182) ;}
+
+
+article p{text-align : justify ;}
+
+article p.source{ font-family : "courier"; }
+
+
+
+article h3{
+  color : #444 ;
+  font-size : 110% ;
+  border-bottom: solid 1px #AAAAAA;
+}
+
+.current{ font-weight: bold;}
+
+/********* Aside ****************/
+
+aside h2{ padding : 0 10px ; font-size : 110% ;}
+
+aside#detailAdherent img#phoroAdherent{
+        /* Arrondi, ombrage*/
+        
+
+}
+
+/******** Formulaire ************************/
+form{
+
+}
+fieldset{
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px;
+        border-radius:  5px;
+}
+
+legend{ }
+
+label{ }
+ div.champ p{ color : red ; font-size : 80% ;}
+ 
+ /*form div.champ p:before{content : "Erreur : ";}
+ */
+/************* Pied de page *************************************************/
+footer a {text-decoration : none  ;
+    
+}
+footer a:hover{color : rgb(41,41,41) ;}
+
+footer p{
+  text-shadow: 1px 1px 1px rgb(187,187,187);
+  color : rgb(89,89,89) ;
+  padding : 5px ;    
+  text-align : center ;
+
+  -moz-border-radius: 0 0 10px 10px; 
+  -webkit-border-radius: 0 0 10px 10px; 
+  border-radius: 0 0 10px 10px;         
+  -webkit-border-bottom-left-radius: 20px; /* pour Chrome */ 
+  -webkit-border-bottom-right-radius: 20px; /* pour Chrome */ 
+
+ background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #AAAAAA),color-stop(1, #777777)); 
+  background-color : #AAA ;
+  }

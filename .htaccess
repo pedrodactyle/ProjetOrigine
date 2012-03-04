@@ -1,0 +1,23 @@
+#   Empêche la visualisation de l'arborescence, n'a rien à voir avec le masquage du « index.php ».
+ Options -Indexes
+
+#   Active le module de réécriture d'URL.
+# RewriteEngine on
+# IL FAUDRAIT DECOMMENTER CETTE LIGNE, mais pour l'instant, le htacces ne fonctionne pas
+
+
+#
+#   Fixe les règles de réécriture d'URL. Ici, nous utilisons une liste blanche.
+#
+
+#   Toutes les URL qui ne correspondent pas à ces masques sont réécrites.
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+
+#   Toutes les autres URL vont être redirigées vers le fichier index.php.
+RewriteRule ^(.*)$ /index.php/$1 [L]
+SetEnv PHP_VER 5 
+ 
+
+
+
+ 
